@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Website de información sobre Ciudades del Mundo">
+    <meta name="keywords" content="blog, viajes, travel, city, ciudades, viajar">
+    <meta name="author" content="Matias Carlos Arias">
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
+    <title>Viaja, porque al final sólo nos llevamos recuerdos | Website</title>
+  </head>
+
+  <body>
+    <!-- --------------------------------- Menu - Navigation ------------------------------------- -->
+
+    <header>
+      <div class="logo">
+        <a href="#"> <img src="./assets/travel-logo1.png" alt="logo" /></a>
+      </div>
+
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <div class="navigation">
+        <ul>
+          <li class="navMenu"><a href="./pages/404.html">Inicio</a></li>
+          <li class="navMenu"><a href="./pages/404.html">Destino</a></li>
+          <li class="navMenu"><a href="./pages/404.html">Contacto</a></li>
+        </ul>
+
+        <div class="socialMedia">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/matiasarias27/"
+                target="_blank"
+              >
+                <img src="./assets/linkedin-black.png" alt="linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/matiarias" target="_blank">
+                <img src="./assets/github.png" alt="github"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/matt.arias182/" target="_blank">
+                <img src="./assets/facebook-black.png" alt="facebook"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- --------------------------------------------------------------------------------- -->
+
+    <!-- ---------------------------------- Content --------------------------------------- -->
+
+    <section>
+      <div class="bannerVideo" id="slideShow">
+        <video
+          src="./assets/miraflores-lima.mp4"
+          type="video/mp4"
+          class="active"
+          autoplay
+          loop
+          muted
+        ></video>
+
+        <video
+          src="./assets/valparaiso-chile.mp4"
+          type="video/mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+
+        <video
+          src="./assets/montevideo-uruguay.mp4"
+          type="video/mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+
+        <video
+          src="./assets/mar-del-plata.mp4"
+          type="video/mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+
+      <div class="content">
+        <div class="bannerText" id="slideShowText">
+          <div class="active">
+            <h2>Peru - Lima</h2>
+            <p>
+              Lima es la capital de Perú ubicada en la árida costa del Pacífico
+              del país. Pese a que su centro colonial se conserva, es una
+              desbordante metrópolis y una de las ciudades más grandes de
+              Sudamérica. El Museo Larco alberga una colección de arte
+              precolombino y el Museo de la Nación recorre la historia de las
+              civilizaciones antiguas de Perú. La Plaza de Armas y la catedral
+              del siglo XVI son el núcleo del antiguo centro de Lima.
+            </p>
+          </div>
+
+          <div>
+            <h2>Chile - Valparaiso</h2>
+            <p>
+              Valparaiso es el puerto principal de Chile y es reconocido por su
+              vibra artística y bohemia, y por sus hermosas vistas. Su centro
+              histórico, ofrece una encantadora arquitectura colonial, con
+              numerosos restaurantes de mariscos, mercados y tiendas. Tomá el
+              funicular Ascensor Artillería, de 100 años de antigüedad, o subí
+              al Cerro Concepción para obtener deslumbrantes vistas del mar y de
+              la ciudad. Una vez de nuevo en la calle, visitá la casa del
+              escritor Pablo Neruda.
+            </p>
+          </div>
+
+          <div>
+            <h2>Uruguay - Montevideo</h2>
+            <p>
+              Montevideo, la capital de Uruguay, es una importante ciudad de la
+              Bahía de Montevideo. Se ubica en torno a la Plaza de la
+              Independencia, donde alguna vez hubo una ciudadela española. La
+              plaza se conecta con la Ciudad Vieja, con edificios art deco,
+              casas coloniales y lugares emblemáticos como el altísimo Palacio
+              Salvo y el Teatro Solís neoclásico. El antiguo Mercado del Puerto
+              está lleno de restaurantes para degustar carnes.
+            </p>
+          </div>
+
+          <div>
+            <h2>Argentina - Mar Del Plata</h2>
+            <p>
+              Mar del Plata es una ciudad balnearia argentina en la costa del
+              Atlántico. Su larga franja de playas incluye la amplia Punta
+              Mogotes y Playa Grande, con sus rompientes para el surf. Detrás de
+              Playa Grande, las calles rodeadas de árboles del barrio Los
+              Troncos tienen elegantes casas de comienzos del siglo XX, que
+              ahora son museos. Entre ellas se incluye el Museo de Historia
+              Roberto T. Barili que documenta el pasado de la ciudad con
+              fotografías y objetos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="controls">
+          <li onclick="prevSlide();prevSlideText();">
+            <img src="./assets/left-button.png" alt="" />
+          </li>
+
+          <li onclick="nextSlide();nextSlideText();">
+            <img src="./assets/right-arrow.png" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ------------------------------- Buttons Slide ----------------------------------- -->
+
+    <!-- ------------------------------------------------------------------------------------ -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
