@@ -9,7 +9,6 @@ function toggleMenu() {
     navigation.classList.toggle('active')
     inicio.classList.navMenu('active')
     
-    
 }
 
 // ---------------------------------- slide video --------------------------------
