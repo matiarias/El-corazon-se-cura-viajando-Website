@@ -219,7 +219,7 @@ section {
   opacity: 1;
 }
 
-/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------- Slide Text ----------------------------------------- */
 
 .content {
   position: absolute;
@@ -272,11 +272,11 @@ section {
   margin: 20px 0;
 }
 
-/* ---------------------------------------------------------------------------------- */
+/* --------------------------------------- Controls -------------------------------------------- */
 
 .container .controls {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,8 +297,8 @@ section {
 }
 
 .container .controls li img {
-  height: 55px;
-  width: 55px;
+  height: 60px;
+  width: 60px;
 }
 
 /*  -------------------------------- footer ------------------------------------------ */
@@ -539,7 +539,13 @@ section {
   }
 
   .container .controls {
-    bottom: 20px;
+    bottom: 60px;
+    right: 80px;
+  }
+
+  .container .controls li img {
+    height: 60px;
+    width: 60px;
   }
 
   .footer {
@@ -814,8 +820,8 @@ section {
   }
 
   .container .controls li img {
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
   }
 
   .footer {
