@@ -225,7 +225,7 @@ section {
   position: absolute;
   left: 50px;
   margin-top: 20px;
-  padding: 30px;
+  padding: 25px;
   z-index: 7000;
 }
 
@@ -262,12 +262,13 @@ section {
 
 .content .bannerText div h2 {
   color: #fff;
-  font-size: 2.8rem;
+  font-size: 3rem;
 }
 
 .content .bannerText div p {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 28px;
   margin: 20px 0;
 }
 
@@ -526,12 +527,14 @@ section {
   }
 
   .content .bannerText div h2 {
-    font-size: 2.7rem;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
   }
 
   .content .bannerText div p {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    line-height: 30px;
     margin: 10px 0;
   }
 
@@ -656,12 +659,14 @@ section {
   }
 
   .content .bannerText div h2 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
   }
 
   .content .bannerText div p {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 30px;
     margin: 5px 0;
   }
 
@@ -792,12 +797,14 @@ section {
   }
 
   .content .bannerText div h2 {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
+    margin-bottom: 10px;
   }
 
   .content .bannerText div p {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    line-height: 25px;
     margin: 5px 0;
   }
 
