@@ -4,8 +4,11 @@ function toggleMenu() {
 
     let menuToggle = document.querySelector('.menuToggle')
     let navigation = document.querySelector('.navigation')
+    let inicio = document.querySelector('#inicio')
     menuToggle.classList.toggle('active')
     navigation.classList.toggle('active')
+    inicio.classList.navMenu('active')
+    
     
 }
 

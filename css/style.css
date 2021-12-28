@@ -300,6 +300,24 @@ section {
   width: 55px;
 }
 
+/*  -------------------------------- footer ------------------------------------------ */
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  padding: 5px 15px;
+  text-align: center;
+  z-index: 7000;
+  background: rgba(255, 255, 255, 0.6);
+  mix-blend-mode: screen;
+}
+
+.footer p {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
 /* *-------------------------------------- ERROR 404 -------------------------------------- */
 
 #section404 {
@@ -521,6 +539,16 @@ section {
     bottom: 20px;
   }
 
+  .footer {
+    bottom: 0;
+    left: 0;
+    padding: 5px 8px;
+  }
+
+  .footer p {
+    font-size: 1.1rem;
+  }
+
   /* --------------------404------------------- */
 
   .cielo .avion {
@@ -647,6 +675,16 @@ section {
     width: 60px;
   }
 
+  .footer {
+    bottom: 0;
+    left: 0;
+    padding: 5px 8px;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+
   /* --------------------404------------------- */
 
   .cielo .avion {
@@ -771,6 +809,16 @@ section {
   .container .controls li img {
     height: 50px;
     width: 50px;
+  }
+
+  .footer {
+    bottom: 0;
+    left: 0;
+    padding: 4px;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
   }
 
   /* --------------------404------------------- */
